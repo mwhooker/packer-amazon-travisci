@@ -21,13 +21,7 @@
     ],
     "provisioners": [
         {
-            "inline": [
-                "mkdir -p /usr/src/app"
-            ],
-            "type": "shell"
-        },
-        {
-            "destination": "/usr/src/app/",
+            "destination": "/home/ubuntu/",
             "source": "app.js",
             "type": "file"
         }
